@@ -1,0 +1,149 @@
+body{
+	background-image:  url("../images/smooth.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#input{
+	position: absolute;
+	left: 50%;
+	top: 35px;
+	transform: translateX(-50%);
+	height: 40px;
+	width: 200px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: rgb(90,90,90);
+}
+#input:focus{
+	transition: 0.5s;
+	background-color: rgb(220,220,220);
+}
+#container{
+	position: absolute;
+	width: 900px;
+	height: 500px;  
+	background-color: rgb(253,253,253);
+	top: 50%;  
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 1em rgb(100,100,100);
+}
+
+.player-panel{
+	position: relative;   
+	width: 50%;
+	height: 100%;
+}
+
+#panel-0{
+	float: left;
+}
+
+#panel-1{
+  float: right;
+}
+.player-score{
+	position: relative;
+	top: 105px;
+	margin: auto;
+	color: #EC6A5C;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 85px;
+}
+.player-style{
+	position: relative;
+	margin: auto;
+	top: 50px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: rgb(90,90,90);
+}
+.score-text{
+	position: relative;
+	margin: auto;
+	top: 95px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: rgb(90,90,90);
+}
+.current-score-box{
+	position: relative;
+	top: 145px;
+	margin: auto;
+	background-color: #EC6A5C;
+	width: 120px;
+	height: 60px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 13px;   
+	box-shadow: 0 0 0.2em rgb(150,150,150);
+	color: rgb(253,253,253);
+}
+.current-score{
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: rgb(253,253,253);
+}
+
+.btn-roll{
+	position: absolute;
+	top: 410px;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: 0;
+	border: 0;
+	color: rgb(90,90,90);
+	font-family: 'Raleway', sans-serif;
+	outline: none;
+}
+.btn-hold{
+	position: absolute;
+	top: 450px;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: 0;
+	border: 0;
+	color: rgb(90,90,90);
+	font-family: 'Raleway', sans-serif;
+	outline: none;
+}
+.size{
+	font-size: 25px;
+	color: #EC6A5C;
+}
+.btn-new{
+	position: absolute;
+	top: 30px;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: 0;
+	border: 0;
+	color: rgb(90,90,90);
+	font-family: 'Raleway', sans-serif;
+	outline: none;
+}
+.dice-png{
+	position: absolute;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	top: 200px;
+}
+.active{
+	background-color: rgb(240,240,240) 
+}
+.btn-effect:hover{
+	font-size: 27px;
+	transition: 0.5s;
+}
+
+
